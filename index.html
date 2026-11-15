@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nina Fomina | Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #171717;
+      --muted: #555;
+      --bar: #ece9e8;
+      --accent: #263d36;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #f7f6f5;
+      color: var(--ink);
+      font: 16px/1.6 "Poppins", sans-serif;
+    }
+
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: clamp(24px, 5vw, 56px);
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px #0000000d;
+    }
+
+    header { margin-bottom: 32px; }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 7vw, 3.8rem);
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      margin: 8px 0 4px;
+      font-size: clamp(1.1rem, 3vw, 1.5rem);
+      line-height: 1.3;
+    }
+
+    .contact { color: var(--muted); }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 11px 18px;
+      border: 2px solid var(--accent);
+      border-radius: 8px;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button.secondary {
+      background: white;
+      color: var(--accent);
+    }
+
+    .button:hover { opacity: .85; }
+
+    section { margin-top: 28px; }
+
+    .entry { margin: 0 0 20px; }
+
+    h2 {
+      margin: 0 0 16px;
+      padding: 5px 16px;
+      border-radius: 999px;
+      background: var(--bar);
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
+
+    .entry-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      font-weight: 700;
+    }
+
+    .entry p { margin: 2px 0; }
+    .location, .meta { color: var(--muted); }
+    ul { margin: 4px 0 0; padding-left: 24px; }
+    .skill { margin: 0 0 10px; }
+
+    a { color: inherit; }
+
+    @media (max-width: 600px) {
+      main { margin: 16px auto; }
+      .entry-heading { display: block; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Nina Fomina</h1>
+      <p class="subtitle">Marketing &amp; International Business Student</p>
+      <p class="contact">
+        <a href="mailto:nnina.fomina@gmail.com">nnina.fomina@gmail.com</a>
+        &nbsp;|&nbsp; (647) 648-7843
+        &nbsp;|&nbsp; <a href="https://www.ninafomina.com">www.ninafomina.com</a>
+      </p>
+
+      <nav class="actions" aria-label="Resume actions">
+        <a class="button" href="Nina%20Fomina%20Resume%202026.pdf" download>
+          Download PDF
+        </a>
+        <a class="button secondary"
+           href="Nina%20Fomina%20Resume%202026.pdf"
+           target="_blank" rel="noopener">
+          Open Resume PDF
+        </a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-heading">
+          <span>Concordia University – John Molson School of Business</span>
+          <span>Sept 2024 – Dec 2028 (Expected)</span>
+        </div>
+        <p class="location">Montréal, QC</p>
+        <p>Bachelor of Commerce (BComm)</p>
+        <p>Major in Marketing, Minor in International Business</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-heading">
+          <span>Humberside Collegiate Institute</span>
+          <span>Sept 2020 – June 2024</span>
+        </div>
+        <p class="location">Toronto, ON</p>
+        <p>Ontario Secondary School Diploma (OSSD)</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+
+      <div class="entry">
+        <div class="entry-heading">
+          <span>Social Media Coordinator &amp; Hostess | Bar Maaya</span>
+          <span>May 2025 – Sept 2025</span>
+        </div>
+        <p class="location">Toronto, ON</p>
+        <ul>
+          <li>Managed the restaurant's Instagram account, creating and posting content to promote the business and engage with customers.</li>
+          <li>Created Instagram stories, reels, and posts to show menu items, promotions, and restaurant events.</li>
+          <li>Greeted and seated guests, creating a welcoming first impression in an upscale environment.</li>
+          <li>Communicated with restaurant staff during busy hours for smooth service.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-heading">
+          <span>Retail Sales &amp; Promotions Associate | Ren’s Pets</span>
+          <span>Dec 2022 – Sept 2024</span>
+        </div>
+        <p class="location">Toronto, ON</p>
+        <ul>
+          <li>Monitored key performance indicators (KPIs) to track sales performance and support store goals.</li>
+          <li>Introduced creative product sampling ideas that were implemented as part of the store's promotional activities.</li>
+          <li>Designed creative, visually appealing window displays to attract customers.</li>
+          <li>Assisted customers in finding the right products, processed sales transactions accurately, and ensured the store was well-stocked and organized.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Academic Projects</h2>
+
+      <div class="entry">
+        <strong>International Market Entry Strategy – GURU Energy</strong>
+        <p class="meta">Concordia University | COMM 211 | November 2025</p>
+        <ul>
+          <li>Analyzed the German energy drink market, identifying consumer trends, competitive opportunities, and target demographics.</li>
+          <li>Developed a market entry strategy covering exporting, distribution, pricing, and digital marketing.</li>
+          <li>Evaluated international trade risks and sustainability considerations to support business expansion recommendations.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <strong>Innovation Strategy &amp; Business Development – Student Food Insecurity</strong>
+        <p class="meta">Concordia University | COMM 219 | November 2025</p>
+        <ul>
+          <li>Evaluated innovative business solutions through market research, financial analysis, and student feedback.</li>
+          <li>Collaborated on a business proposal for a student-run food co-op, developing recommendations for budgeting, marketing, and implementation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p class="skill"><strong>Marketing:</strong> Social Media Management, Content Creation, Visual Merchandising</p>
+      <p class="skill"><strong>Business &amp; Analytics:</strong> KPI Tracking, Competitive Analysis, Strategic Planning</p>
+      <p class="skill"><strong>Technical:</strong> Microsoft Excel, PowerPoint, Canva, and Adobe Premiere Pro</p>
+    </section>
+  </main>
+</body>
+</html>
